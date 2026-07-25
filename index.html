@@ -1,319 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Hip Hop Battle World</title>
-
-    <meta name="description" content="Hip Hop Battle World">
-
-    <!-- Google Font (temporary) -->
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-
-    <!-- Main Styles -->
-    <link rel="stylesheet" href="css/styles.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hip Hop Battle World — stories, culture, sports and competition from voices that live it.">
+  <title>Hip Hop Battle World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
-
-<!-- ==========================================
-     HEADER
-========================================== -->
-
-<header class="site-header">
-
-    <nav class="navbar">
-
-        <!-- Mobile Hamburger -->
-
-        <button class="hamburger" id="hamburger">
-            ☰
-        </button>
-
-        <!-- Mobile Current Page -->
-
-        <div class="mobile-page-title" id="mobileTitle">
-            HOME
-        </div>
-
-        <!-- Navigation -->
-
-        <ul class="nav-links" id="navMenu">
-
-            <li>
-                <a href="#home" class="nav-link active">
-                    HOME
-                </a>
-            </li>
-
-            <li>
-                <a href="#stoop" class="nav-link">
-                    STOOP STORIES
-                </a>
-            </li>
-
-            <li>
-                <a href="#scoop" class="nav-link">
-                    SCOOP
-                </a>
-            </li>
-
-            <li>
-                <a href="#sports" class="nav-link">
-                    SPORTS
-                </a>
-            </li>
-
-            <li>
-                <a href="#contact" class="nav-link">
-                    CONTACT
-                </a>
-            </li>
-
-        </ul>
-
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand-mark" href="#home" aria-label="Hip Hop Battle World home">
+        <img src="images/hhbw-logo.png" alt="Hip Hop Battle World">
+      </a>
+      <button class="hamburger" id="hamburger" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">The World</a></li>
+        <li><a href="#shows" class="nav-link">Shows</a></li>
+        <li><a href="#launch" class="nav-link">Coming Next</a></li>
+        <li><a href="#connect" class="nav-link">Connect</a></li>
+      </ul>
     </nav>
+  </header>
 
-</header>
-
-<!-- ==========================================
-     HERO
-========================================== -->
-
-<section id="home" class="hero">
-
-    <div class="hero-content">
-
-        <img
-            src="images/hhbw-logo.png"
-            alt="Hip Hop Battle World"
-            class="hero-logo">
-
-        <p class="tagline">
-            Where Hip-Hop Culture Meets Championship Media
-        </p>
-
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Culture. Competition. Conversation.</p>
+        <img src="images/hhbw-logo.png" alt="Hip Hop Battle World" class="hero-logo">
+        <h1>Where hip-hop culture meets championship media.</h1>
+        <p class="hero-copy">Original stories, sharp commentary and sports energy — built around authentic voices and real community.</p>
         <div class="hero-buttons">
+          <a href="#shows" class="btn primary-btn">Explore the Shows</a>
+          <a href="#about" class="btn secondary-btn">Enter the World</a>
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll to learn more">↓</a>
+    </section>
 
-            <a href="#" class="btn primary-btn">
-                Watch Latest
-            </a>
+    <section id="about" class="intro-section">
+      <div class="section-shell split-intro">
+        <div>
+          <p class="section-kicker">What is HHBW?</p>
+          <h2>Three worlds. One culture.</h2>
+        </div>
+        <div class="intro-copy">
+          <p>Hip Hop Battle World is a media platform built around the stories, personalities, competition and conversations that shape culture.</p>
+          <p>From the stoop to the studio to the scoreboard, every show brings a different angle — while staying rooted in authenticity.</p>
+        </div>
+      </div>
+      <div class="section-shell pillars">
+        <article class="pillar"><span>01</span><h3>Stories</h3><p>Real people, lived experiences and unforgettable moments.</p></article>
+        <article class="pillar"><span>02</span><h3>Culture</h3><p>Music, entertainment, news and the conversations around them.</p></article>
+        <article class="pillar"><span>03</span><h3>Competition</h3><p>Sports, battles and the energy that comes with being the best.</p></article>
+      </div>
+    </section>
 
-            <a href="#" class="btn secondary-btn">
-                Explore Shows
-            </a>
-
+    <section id="shows" class="shows-section">
+      <div class="section-shell">
+        <div class="section-heading">
+          <div><p class="section-kicker">Original programming</p><h2>Meet the worlds</h2></div>
+          <p>Each show has its own voice, look and rhythm. Episodes are currently in production.</p>
         </div>
 
-    </div>
-
-</section>
-
-<!-- ==========================================
-     STOOP STORIES
-========================================== -->
-
-<section id="stoop" class="studio stoop">
-
-    <div class="section-container">
-
-        <h2 class="section-title">
-            Stoop Stories
-        </h2>
-
-        <div class="featured-video">
-
-            <iframe
-                src="https://www.youtube.com/embed/"
-                title="Featured Stoop Stories"
-                allowfullscreen>
-            </iframe>
-
-        </div>
-
-        <div class="video-grid">
-
-            <div class="video-card">Episode 1</div>
-            <div class="video-card">Episode 2</div>
-            <div class="video-card">Episode 3</div>
-            <div class="video-card">Episode 4</div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ==========================================
-     SCOOP
-========================================== -->
-
-<section id="scoop" class="studio scoop">
-
-    <div class="section-container">
-
-        <h2 class="section-title">
-            Scoop
-        </h2>
-
-        <div class="featured-video">
-
-            <iframe
-                src="https://www.youtube.com/embed/"
-                title="Featured Scoop"
-                allowfullscreen>
-            </iframe>
-
-        </div>
-
-        <div class="video-grid">
-
-            <div class="video-card">News 1</div>
-            <div class="video-card">News 2</div>
-            <div class="video-card">News 3</div>
-            <div class="video-card">News 4</div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ==========================================
-     SPORTS
-========================================== -->
-
-<section id="sports" class="studio sports">
-
-    <div class="section-container">
-
-        <h2 class="section-title">
-            Sports
-        </h2>
-
-        <div class="featured-video">
-
-            <iframe
-                src="https://www.youtube.com/embed/"
-                title="Featured Sports"
-                allowfullscreen>
-            </iframe>
-
-        </div>
-
-        <div class="video-grid">
-
-            <div class="video-card">Game 1</div>
-            <div class="video-card">Game 2</div>
-            <div class="video-card">Game 3</div>
-            <div class="video-card">Game 4</div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ==========================================
-     CONTACT
-========================================== -->
-
-<section id="contact" class="studio contact">
-
-    <div class="section-container">
-
-        <h2 class="section-title">
-            CONTACT
-        </h2>
-
-        <div class="contact-wrapper">
-
-            <div class="contact-info">
-
-                <h3>
-                    Let's Connect
-                </h3>
-
-                <p>
-                    Interested in interviews, collaborations,
-                    sponsorships, media requests, or appearing on one
-                    of our shows? We'd love to hear from you.
-                </p>
-
-                <div class="contact-item">
-                    📧 Email Coming Soon
-                </div>
-
-                <div class="contact-item">
-                    ☎ Phone Coming Soon
-                </div>
-
-                <div class="contact-item">
-                    🌎 Social Media Coming Soon
-                </div>
-
+        <div class="show-grid">
+          <article class="show-card stoop-card">
+            <div class="show-card-shade"></div>
+            <div class="show-card-content">
+              <span class="show-number">01</span>
+              <div class="status-chip">In production</div>
+              <h3>Stoop Stories</h3>
+              <p>Unfiltered conversations from the people, places and moments that shaped the culture.</p>
+              <span class="show-footer">Real voices. No script.</span>
             </div>
+          </article>
 
-            <div class="contact-form">
-
-                <form>
-
-                    <input
-                        type="text"
-                        placeholder="Your Name">
-
-                    <input
-                        type="email"
-                        placeholder="Email Address">
-
-                    <input
-                        type="text"
-                        placeholder="Subject">
-
-                    <textarea
-                        rows="7"
-                        placeholder="Your Message"></textarea>
-
-                    <button
-                        type="submit"
-                        class="primary-btn">
-
-                        Send Message
-
-                    </button>
-
-                </form>
-
+          <article class="show-card scoop-card">
+            <div class="show-card-shade"></div>
+            <div class="show-card-content">
+              <span class="show-number">02</span>
+              <div class="status-chip">In production</div>
+              <h3>Scoop</h3>
+              <p>News, interviews, opinions and the stories moving entertainment and culture right now.</p>
+              <span class="show-footer">The conversation behind the headline.</span>
             </div>
+          </article>
 
+          <article class="show-card sports-card">
+            <div class="show-card-shade"></div>
+            <div class="show-card-content">
+              <span class="show-number">03</span>
+              <div class="status-chip">In production</div>
+              <h3>Sports</h3>
+              <p>Competition, commentary and the personalities who make the game larger than the scoreboard.</p>
+              <span class="show-footer">Where performance meets culture.</span>
+            </div>
+          </article>
         </div>
+      </div>
+    </section>
 
+    <section id="launch" class="launch-section">
+      <div class="launch-image" role="img" aria-label="Hip Hop Battle World arena"></div>
+      <div class="launch-copy">
+        <p class="section-kicker">The world is being built</p>
+        <h2>Original content is on the way.</h2>
+        <p>We are developing the first wave of interviews, cultural conversations, sports coverage and original show releases.</p>
+        <div class="launch-list">
+          <span>Interviews</span><span>Culture</span><span>Sports</span><span>Community</span>
+        </div>
+        <a href="#connect" class="btn primary-btn">Be Part of the Launch</a>
+      </div>
+    </section>
+
+    <section id="connect" class="connect-section">
+      <div class="section-shell connect-grid">
+        <div>
+          <p class="section-kicker">Step into the world</p>
+          <h2>Guests. Stories. Sponsors. Collaborators.</h2>
+          <p class="connect-lead">Hip Hop Battle World is building relationships with voices and brands that fit the culture.</p>
+        </div>
+        <div class="connect-options">
+          <article><h3>Appear as a guest</h3><p>Bring your story, expertise or point of view to an upcoming conversation.</p></article>
+          <article><h3>Submit a story</h3><p>Share a person, place or moment that deserves the spotlight.</p></article>
+          <article><h3>Partner with HHBW</h3><p>Explore sponsorship, production and brand collaboration opportunities.</p></article>
+          <article><h3>Follow the launch</h3><p>Official channels and release announcements will be added here as they go live.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <img src="images/hhbw-logo.png" alt="Hip Hop Battle World">
+      <p>Culture. Competition. Conversation.</p>
+      <span>© 2026 Hip Hop Battle World. All rights reserved.</span>
     </div>
+  </footer>
 
-</section>
-
-<!-- ==========================================
-     FOOTER
-========================================== -->
-
-<footer>
-
-    <p>
-        © 2026 Hip Hop Battle World
-    </p>
-
-</footer>
-
-<!-- ==========================================
-     JAVASCRIPT
-========================================== -->
-
-<script src="js/config.js"></script>
-<script src="js/app.js"></script>
-
+  <script src="js/app.js"></script>
 </body>
 </html>
